@@ -1,18 +1,7 @@
-# vue-loading
-loading</br>
-loading组件
+<!DOCTYPE HTML><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=unicode">
+<title>无标题</title>
+    
+<style id="wiz_custom_css">html, body {font-size: 12pt;}body {font-family: Helvetica, 'Hiragino Sans GB', '微软雅黑', 'Microsoft YaHei UI', SimSun, SimHei, arial, sans-serif;line-height: 1.6;margin: 0 auto;padding: 20px 16px;padding: 1.25rem 1rem;}h1, h2, h3, h4, h5, h6 {margin:20px 0 10px;margin:1.25rem 0 0.625rem;padding: 0;font-weight: bold;}h1 {font-size:20pt;font-size:1.67rem;}h2 {font-size:18pt;font-size:1.5rem;}h3 {font-size:15pt;font-size:1.25rem;}h4 {font-size:14pt;font-size:1.17rem;}h5 {font-size:12pt;font-size:1rem;}h6 {font-size:12pt;font-size:1rem;color: #777777;margin: 1rem 0;}div, p, ul, ol, dl, li {margin:0;}blockquote, table, pre, code {margin:8px 0;}ul, ol {padding-left:32px;padding-left:2rem;}ol.wiz-list-level1 > li {list-style-type:decimal;}ol.wiz-list-level2 > li {list-style-type:lower-latin;}ol.wiz-list-level3 > li {list-style-type:lower-roman;}blockquote {padding:0 12px;padding:0 0.75rem;}blockquote > :first-child {margin-top:0;}blockquote > :last-child {margin-bottom:0;}img {border:0;max-width:100%;height:auto !important;margin:2px 0;}table {border-collapse:collapse;border:1px solid #bbbbbb;}td, th {padding:4px 8px;border-collapse:collapse;border:1px solid #bbbbbb;min-height:28px;word-break:break-all;box-sizing: border-box;}.wiz-hide {display:none !important;}</style></head>
 
-npm install --save vue-load</br>
-import Loading from 'vue-load'</br>
-components: {Loading}</br>
-------------------------------------
-props:</br>
-    url //加载图标的地址</br>
-    width/height //图标宽高</br>
-    text //文本</br>
-    position:top|bottom //文本相对于图标位置</br>
-    textStyle:{color:'#ccc'} //文本样式</br>
-  
-methods:</br>
-  show()</br>
-  hide()</br>
+<body class=""  spellcheck="false"><div># vue-loading<br></div><div>loading<br></div><div>loading组件<br></div><div><br></div><div>npm install --save vue-load<br></div><div>import Loading from 'vue-load'<br></div><div>components: {Loading}<br></div><div><br></div><div>props:<br></div><div>&nbsp; &nbsp; url //加载图标的地址<br></div><div>&nbsp; &nbsp; width/height //图标宽高<br></div><div>&nbsp; &nbsp; text //文本<br></div><div>&nbsp; &nbsp; position:top|bottom //文本相对于图标位置<br></div><div>&nbsp; &nbsp; textStyle:{color:'#ccc'} //文本样式<br></div><div>&nbsp; <br></div><div>methods:<br></div><div>&nbsp; show()<br></div><div>&nbsp; hide()<br></div></body></html>

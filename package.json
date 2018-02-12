@@ -1,0 +1,22 @@
+{
+  "name": "vue-load",
+  "version": "1.0.1",
+  "description": "loading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Likely6/vue-loading.git"
+  },
+  "keywords": [
+    "loading"
+  ],
+  "author": "Likely6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Likely6/vue-loading/issues"
+  },
+  "homepage": "https://github.com/Likely6/vue-loading#readme"
+}

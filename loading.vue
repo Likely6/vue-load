@@ -1,5 +1,5 @@
 <template>
-	<div class="loading" v-show="showLoading">
+	<div class="loading" v-show="showFlag">
 		<span class="text text-top" :style="textStyle" v-show="location">{{text}}</span>
 		<img :src="url" :width="width" :height="height" class="image">
 		<span class="text text-bottom" :style="textStyle" v-show="!location">{{text}}</span>
@@ -8,12 +8,11 @@
 <script>
 import loadgif from './loading.gif'
 export default {
-	data() {
-		return {
-			showLoading: true
-		}
-	},
 	props: {
+		showLoading: {
+			type: Boolean,
+			default: true
+		},
 		url: {
 			type: String,
 			default: loadgif
@@ -26,7 +25,7 @@ export default {
 			type: String,
 			default: '30'
 		},
-		//文本文字
+		// 文本文字
 		text: {
 			type: String,
 			default: ''
@@ -44,6 +43,11 @@ export default {
 			}
 		}
 	},
+	data() {
+		return {
+			showFlag: this.showLoading
+		}
+	},
 	computed: {
 		location() {
 			if (this.position === 'top') {
@@ -54,10 +58,10 @@ export default {
 	},
 	methods: {
 		show() {
-			this.showLoading = true
+			this.showFlag = true
 		},
 		hide() {
-			this.showLoading = false
+			this.showFlag = false
 		}
 	}
 }
